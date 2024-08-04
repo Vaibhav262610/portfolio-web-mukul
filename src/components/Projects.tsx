@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="grid gap-5 grid-cols-2 grid-rows-2  w-fit">
             {projectData.map((val) => {
               return (
-                <div>
+                <div key={val.id}>
                   <CardContainer className="inter-var">
                     <CardItem
                       // translateZ="50"
@@ -50,6 +50,9 @@ const Projects = () => {
           </div>
         </div>
       </div>
+          <div>
+            ailusjbduija
+          </div>
     </>
   );
 };

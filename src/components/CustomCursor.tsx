@@ -47,7 +47,7 @@ const CustomCursor: React.FC = () => {
   return (
     <div
       ref={cursorRef}
-      className="fixed w-2  h-2 border-[1px] border-black rounded-full pointer-events-none z-50 transform -translate-x-1/2 -translate-y-1/2 transition-transform duration-200"
+      className="fixed w-2  h-2 border-[1px] border-black rounded-full pointer-events-none z-[9000] transform -translate-x-1/2 -translate-y-1/2 transition-transform duration-200"
     />
   );
 };

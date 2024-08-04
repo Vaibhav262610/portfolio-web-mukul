@@ -11,7 +11,10 @@ const HeroSection = () => {
   return (
     <>
       {/* <PreLoader /> */}
-      <div className="flex w-full h-screen justify-center items-end">
+      <div
+        id="heroSection"
+        className="flex w-full h-screen justify-center items-end"
+      >
         <div className="w-11/12 max-w-11/12 bg-gray-100 h-[95vh] flex-col flex items-center  justify-between rounded-3xl ">
           <div className=" w-full max-w-11/12 px-12 mt-6">
             <div className="flex items-center justify-between leading-5">
@@ -29,9 +32,9 @@ const HeroSection = () => {
                 />
               </div>
               <div className="flex items-center gap-5">
-                <a href="#projects">
-                  <h1 className="font-normal text-sm ">Download CV</h1>
-                </a>
+                {/* <a href="#projects"> */}
+                <h1 className="font-normal text-sm ">Download CV</h1>
+                {/* </a> */}
                 <h1 className="font-normal text-sm underline">
                   Request a project
                 </h1>
