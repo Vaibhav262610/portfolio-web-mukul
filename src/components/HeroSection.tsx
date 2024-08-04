@@ -29,7 +29,9 @@ const HeroSection = () => {
                 />
               </div>
               <div className="flex items-center gap-5">
-                <h1 className="font-normal text-sm ">Download CV</h1>
+                <a href="#projects">
+                  <h1 className="font-normal text-sm ">Download CV</h1>
+                </a>
                 <h1 className="font-normal text-sm underline">
                   Request a project
                 </h1>

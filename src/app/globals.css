@@ -7,6 +7,10 @@ body {
   cursor: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .scale-up {
   transform: scale(8) !important;
 }
@@ -19,7 +23,23 @@ body {
   background: rgb(219, 219, 219);
 }
 
-.back-video {
+/* .back-video {
   background: url("https://static.postnikovmd.com/mp4/hero-bg.mp4");
   background-size: cover;
+} */
+
+::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #05182c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255);
 }
