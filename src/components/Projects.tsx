@@ -67,7 +67,7 @@ const Projects = () => {
                       key={val.id}
                       className="flex justify-between items-center border-b-2  py-2"
                     >
-                      <h1>
+                      <h1 className="text-[0.9rem]">
                         <LinkPreview
                           url="https://tailwindcss.com"
                           className="flex items-center gap-2 "
@@ -79,9 +79,9 @@ const Projects = () => {
                         </LinkPreview>
                       </h1>
 
-                      <h1 className="text-zinc-600 text-md w-[22rem]">{val.desc}</h1>
-                      <h1 className="text-zinc-300  text-md font-light">{val.field}</h1>
-                      <h1 className="text-zinc-300 text-md font-light">{val.year}</h1>
+                      <h1 className="text-zinc-600 text-[0.9rem] w-[22rem]">{val.desc}</h1>
+                      <h1 className="text-zinc-300  text-[0.9rem] font-light">{val.field}</h1>
+                      <h1 className="text-zinc-300 text-[0.9rem] font-light">{val.year}</h1>
                     </div>
                   );
                 })}
