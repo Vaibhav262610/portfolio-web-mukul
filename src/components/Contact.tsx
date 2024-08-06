@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="flex bg-zinc-50 py-4 px-5 rounded-xl justify-between w-[63rem]">
             <div className="flex flex-col gap-3">
               <h1 className="font-medium text-2xl">
-                You've got a challenge? Let's talk!
+                You&apos;ve got a challenge? Let's talk!
               </h1>
               <h2 className="w-[32rem] tracking-wide text-zinc-500">
                 Get a free consulation on your project - leave a request on the

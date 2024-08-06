@@ -13,7 +13,10 @@ const Blog = () => {
             <div className="flex  ">
               {blogData.map((val) => {
                 return (
-                  <div className=" border rounded-xl py-4 px-2 flex gap-4 items-center">
+                  <div
+                    key={val.id}
+                    className=" border rounded-xl py-4 px-2 flex gap-4 items-center"
+                  >
                     <div className="w-40 rounded-xl h-40 overflow-hidden">
                       <img
                         src={val.img}
