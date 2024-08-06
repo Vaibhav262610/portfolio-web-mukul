@@ -11,19 +11,19 @@ export function Navbar() {
     },
     {
       name: "Services & Pricing",
-      link: "/about",
+      link: "#services",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "About Me",
-      link: "/contact",
+      link: "#about",
       icon: (
         <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
     {
       name: "Contact",
-      link: "/contact",
+      link: "#contact",
       icon: (
         <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),

@@ -9,6 +9,9 @@ import { listProjectData } from "@/data/Projects";
 import { FaArrowUpLong } from "react-icons/fa6";
 
 const Projects = () => {
+
+  
+
   return (
     <>
       <div
@@ -16,7 +19,7 @@ const Projects = () => {
         className="h-fit py-20 w-full flex justify-center items-center"
       >
         <div className="flex justify-between w-full max-w-[85rem]">
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 sticky">
             <h1 className="text-3xl font-medium">Projects</h1>
             <p className="text-zinc-400 text-md tracking-wide">
               I have a proven track record of my own <br /> product and over 30
