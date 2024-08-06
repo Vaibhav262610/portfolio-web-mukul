@@ -1,4 +1,6 @@
+import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import { Navbar } from "@/components/Navbar";
 import Projects from "@/components/Projects";
@@ -12,6 +14,8 @@ export default function Home() {
       <Projects />
       <Services />
       <Contact />
+      <Blog />
+      <Footer />
     </>
   );
 }
