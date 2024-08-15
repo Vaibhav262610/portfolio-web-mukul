@@ -9,6 +9,7 @@ import Services from "@/components/Services";
 export default function Home() {
   return (
     <>
+    <div className="bg-red-500">
       <Navbar />
       <HeroSection />
       <Projects />
@@ -16,6 +17,7 @@ export default function Home() {
       <Contact />
       <Blog />
       <Footer />
+    </div>
     </>
   );
 }
