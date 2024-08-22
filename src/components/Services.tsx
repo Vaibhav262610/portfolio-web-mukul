@@ -11,7 +11,7 @@ const Services = () => {
       >
         <div className="w-11/12 max-w-11/12 bg-gray-50 h-[95vh] flex-col flex items-center  justify-between rounded-3xl ">
           <div className=" flex justify-between py-20 w-[85rem]">
-            <div className="">
+            <div className="projects-sticky">
               <h1 className="text-2xl font-medium">Services</h1>
             </div>
             <div className="grid grid-cols-2 grid-rows-2  gap-5">

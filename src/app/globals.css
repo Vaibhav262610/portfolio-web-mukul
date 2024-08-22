@@ -43,3 +43,10 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(255, 255, 255);
 }
+
+.projects-sticky{
+  /* background-color: red; */
+  height: fit-content;
+  position: sticky;
+  top: 7rem;
+}

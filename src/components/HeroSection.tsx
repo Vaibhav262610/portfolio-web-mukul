@@ -15,11 +15,11 @@ const HeroSection = () => {
         id="heroSection"
         className="flex w-full h-screen justify-center items-end"
       >
-        <div className="w-11/12 max-w-11/12 bg-gray-100 h-[95vh] flex-col flex items-center  justify-between rounded-3xl ">
+        <div className=" w-11/12 max-w-11/12 bg-gray-100 h-[95vh] flex-col flex items-center  justify-between rounded-3xl ">
           <div className=" w-full max-w-11/12 px-12 mt-6">
             <div className="flex items-center justify-between leading-5">
-              <div>
-                <h1 className="font-medium">Maksim Postnikov</h1>
+              <div className="">
+                <h1 className="font-medium">Vaibhav Rajpoot</h1>
                 <h1 className="font-light text-xs">
                   Product designer & developer
                 </h1>

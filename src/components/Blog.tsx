@@ -6,7 +6,7 @@ const Blog = () => {
     <>
       <div id="contact" className="py-20 flex justify-center">
         <div className="flex justify-between w-[85rem]">
-          <div>
+          <div className="projects-sticky">
             <h1 className="text-2xl font-medium mt-8">Blog</h1>
           </div>
           <div className="flex justify-between ">
